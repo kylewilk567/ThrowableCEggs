@@ -1,0 +1,14 @@
+#Toggles whether creepers will fall upon being spawned from a throwable egg
+Gravity:
+  enabled: false
+
+#Changes the balance taken from player per egg using /cegg buy. Must be an integer amount (NOT 1.0, 1.1, etc)
+Egg-cost:
+  cost: 100
+
+#Sets number of ticks until creeper explodes after projectile hits.
+#There are 20 ticks in a second (Ex: set fuse-ticks to 40 for 2-second delay)
+fuse-ticks: 5
+
+#Sets radius in which creeper explosion will affect.
+explosion-radius: 7
